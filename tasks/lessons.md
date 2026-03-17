@@ -1,9 +1,9 @@
-# Lessons Learned - [NOM DU PROJET]
+# Lessons Learned - [PROJECT NAME]
 
-> Erreurs passees et patterns a eviter. Relu au debut de chaque session Claude Code.
+> Past mistakes and patterns to avoid. Reviewed at the start of each Claude Code session.
 
-## Patterns a eviter
+## Patterns to Avoid
 
-## Corrections appliquees
+## Applied Corrections
 
 ## Rules

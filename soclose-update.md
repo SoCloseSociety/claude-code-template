@@ -1,19 +1,19 @@
-# SoClose Update - Generateur CLAUDE.md
+# SoClose Update - CLAUDE.md Generator
 
-> Copiez ce prompt et collez-le dans Claude Code pour generer un CLAUDE.md optimise
-> adapte a votre projet.
+> Copy this prompt and paste it into Claude Code to generate an optimized CLAUDE.md
+> tailored to your project.
 
 ## Prompt
 
 ```
-Analyse l'integralite de ce projet et genere un fichier CLAUDE.md optimise a la racine.
+Analyze this entire project and generate an optimized CLAUDE.md file at the root.
 
-Le CLAUDE.md doit contenir :
+The CLAUDE.md must contain:
 
 ## 1. Project Identity
-- Nom, role, stack exact detecte (versions comprises)
-- Architecture overview (services, ports, dependances externes)
-- Fichiers critiques a ne jamais toucher sans plan prealable
+- Name, role, exact detected stack (including versions)
+- Architecture overview (services, ports, external dependencies)
+- Critical files that should never be touched without a prior plan
 
 ## 2. Workflow Orchestration
 - Enter plan mode for ANY non-trivial task (3+ steps or architectural decisions)
@@ -42,12 +42,12 @@ Le CLAUDE.md doit contenir :
 6. Capture Lessons: update tasks/lessons.md after corrections
 
 ## 6. Project-Specific Rules
-Deduis depuis le codebase :
-- Conventions de nommage utilisees
-- Patterns architecturaux en place (ex: service layer, repository pattern, etc.)
-- Ce qui est deja casse ou fragile (dette technique visible)
-- Les commandes de dev/build/test/deploy utilisees dans ce projet
-- Variables d'env critiques detectees (.env.example ou references dans le code)
+Infer from the codebase:
+- Naming conventions used
+- Architectural patterns in place (e.g. service layer, repository pattern, etc.)
+- What is already broken or fragile (visible tech debt)
+- Dev/build/test/deploy commands used in this project
+- Critical env variables detected (.env.example or references in code)
 
 ## 7. Core Principles (global)
 - Simplicity First: make every change as simple as possible, minimal code impact
@@ -56,9 +56,9 @@ Deduis depuis le codebase :
 - Never use em dashes in any output (use -- instead)
 - Ollama-first for any local LLM calls (RTX 4070 available)
 
-Apres avoir genere CLAUDE.md, cree aussi :
-- tasks/todo.md (vide avec header du projet)
-- tasks/lessons.md (vide avec header du projet)
+After generating CLAUDE.md, also create:
+- tasks/todo.md (empty with project header)
+- tasks/lessons.md (empty with project header)
 
-Ne me demande pas de confirmation, genere directement les 3 fichiers.
+Do not ask for confirmation, generate the 3 files directly.
 ```

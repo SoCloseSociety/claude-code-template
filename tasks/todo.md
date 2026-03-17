@@ -1,6 +1,6 @@
-# Todo - [NOM DU PROJET]
+# Todo - [PROJECT NAME]
 
-> Plan courant du projet. Chaque tache doit etre checkable.
+> Current project plan. Each task must be checkable.
 
 ## Current Sprint
 

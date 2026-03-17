@@ -1,16 +1,16 @@
 # CLAUDE.md - SoClose Project Template
 
-> Ce fichier est lu automatiquement par Claude Code au demarrage de chaque session.
-> Adaptez la section "Project Identity" et "Project-Specific Rules" a chaque projet.
+> This file is automatically read by Claude Code at the start of each session.
+> Adapt the "Project Identity" and "Project-Specific Rules" sections for each project.
 
 ## 1. Project Identity
 
-- **Nom**: [NOM DU PROJET]
-- **Role**: [DESCRIPTION COURTE]
+- **Name**: [PROJECT NAME]
+- **Role**: [SHORT DESCRIPTION]
 - **Stack**: FastAPI + React 19 + TypeScript + Vite + Supabase + Redis
 - **Runtime**: Docker on VPS (32c/64GB/RTX 4070)
-- **Architecture**: [SERVICES, PORTS, DEPENDANCES EXTERNES]
-- **Fichiers critiques**: [FICHIERS A NE JAMAIS TOUCHER SANS PLAN]
+- **Architecture**: [SERVICES, PORTS, EXTERNAL DEPENDENCIES]
+- **Critical files**: [FILES TO NEVER TOUCH WITHOUT A PLAN]
 
 ## 2. Workflow Orchestration
 
@@ -54,13 +54,13 @@
 
 ## 6. Project-Specific Rules
 
-> A remplir apres analyse du codebase avec la commande soclose-update.
+> Fill in after codebase analysis using the soclose-update prompt.
 
-- **Conventions de nommage**: [A DEDUIRE]
-- **Patterns architecturaux**: [A DEDUIRE - ex: service layer, repository pattern]
-- **Dette technique visible**: [A DEDUIRE]
-- **Commandes dev/build/test/deploy**: [A DEDUIRE]
-- **Variables d'env critiques**: [A DEDUIRE depuis .env.example ou code]
+- **Naming conventions**: [TO BE INFERRED]
+- **Architectural patterns**: [TO BE INFERRED - e.g. service layer, repository pattern]
+- **Visible tech debt**: [TO BE INFERRED]
+- **Dev/build/test/deploy commands**: [TO BE INFERRED]
+- **Critical env variables**: [TO BE INFERRED from .env.example or code references]
 
 ## 7. Core Principles (global)
 

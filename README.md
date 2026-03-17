@@ -1,28 +1,28 @@
 # Claude Code Template - SoClose
 
-Template de configuration Claude Code pour les projets SoClose.
+Claude Code configuration template for SoClose projects.
 
-Inspire du prompt de Boris Cherny, adapte a notre stack et workflow.
+Inspired by Boris Cherny's prompt, adapted to our stack and workflow.
 
-## Contenu
+## Contents
 
-- `CLAUDE.md` -- Template de configuration Claude Code (lu automatiquement a chaque session)
-- `tasks/todo.md` -- Plan courant du projet
-- `tasks/lessons.md` -- Erreurs passees et patterns a eviter
-- `soclose-update.md` -- Prompt pour generer un CLAUDE.md adapte a un projet existant
+- `CLAUDE.md` -- Claude Code configuration template (automatically read at each session start)
+- `tasks/todo.md` -- Current project plan
+- `tasks/lessons.md` -- Past mistakes and patterns to avoid
+- `soclose-update.md` -- Prompt to generate a CLAUDE.md tailored to an existing project
 
-## Utilisation
+## Usage
 
-### Nouveau projet
-1. Clonez ce repo ou copiez les fichiers dans votre projet
-2. Editez `CLAUDE.md` section "Project Identity" et "Project-Specific Rules"
-3. Claude Code lira automatiquement le fichier au demarrage
+### New project
+1. Clone this repo or copy the files into your project
+2. Edit `CLAUDE.md` sections "Project Identity" and "Project-Specific Rules"
+3. Claude Code will automatically read the file on startup
 
-### Projet existant
-1. Copiez le prompt dans `soclose-update.md` dans Claude Code
-2. Il analysera le codebase et generera un CLAUDE.md adapte
+### Existing project
+1. Copy the prompt from `soclose-update.md` into Claude Code
+2. It will analyze the codebase and generate a tailored CLAUDE.md
 
-## Stack par defaut
+## Default Stack
 - FastAPI + React 19 + TypeScript + Vite + Supabase + Redis
 - Docker on VPS (32c/64GB/RTX 4070)
-- Ollama pour les LLM calls locaux
+- Ollama for local LLM calls

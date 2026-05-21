@@ -10,6 +10,7 @@ Inspired by Boris Cherny's prompt, adapted to our stack and workflow.
 - `tasks/todo.md` -- Current project plan
 - `tasks/lessons.md` -- Past mistakes and patterns to avoid
 - `soclose-update.md` -- Prompt to generate a CLAUDE.md tailored to an existing project
+- `prompts/anti-waste-templates.md` -- Optimized prompt templates (scope + output format + stop criteria) to avoid credit waste
 
 ## Usage
 
